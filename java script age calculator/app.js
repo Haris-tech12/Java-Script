@@ -1,0 +1,5 @@
+var date = new Date().getTime()
+var input = prompt('Enter your date of birth')
+var dob = new Date(input).getTime()
+var age = Math.floor((date-dob)/(1000*60*60*24*365))
+document.write("your age is" + age)
