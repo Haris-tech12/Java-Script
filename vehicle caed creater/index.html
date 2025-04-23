@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vehicle Card Creator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Vehicle Card Creator</h1>
+    <form id="vehicle-form">
+      <input type="text" placeholder="Vehicle Name" id="name" required />
+      <input type="text" placeholder="Price" id="price" required />
+      <input type="text" placeholder="Model" id="model" required />
+      <input type="text" placeholder="Address" id="address" required />
+      <input type="text" placeholder="KM Driven" id="km" required />
+      <input type="text" placeholder="Image URL" id="image" required />
+      <button type="submit">Create</button>
+    </form>
+
+    <div class="cards" id="card-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
